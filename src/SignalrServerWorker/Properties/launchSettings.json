@@ -1,0 +1,10 @@
+﻿{
+  "profiles": {
+    "SignalrServerWorker": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "DOTNET_ENVIRONMENT": "Development"
+      }
+    }
+  }
+}

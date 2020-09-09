@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "SignalrClient": {
+      "commandName": "Project",
+      "commandLineArgs": "8000"
+    }
+  }
+}
