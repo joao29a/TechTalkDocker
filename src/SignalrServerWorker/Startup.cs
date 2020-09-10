@@ -12,7 +12,7 @@ namespace SignalrServerWorker
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSignalR()
-                .AddStackExchangeRedis("localhost:9090");
+                .AddStackExchangeRedis("tech-redis");                
 
             services.AddHostedService<Worker>();
 
